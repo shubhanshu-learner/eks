@@ -82,7 +82,7 @@ jobs:
          - name: checkout code
            uses: actions/checkout@v4
            with:
-            token: ${{ secrets.DOCKER_TOKEN }}
+            token: ${{ secrets.GITHUB_TOKEN }}
 
          - name: Update k8s manifest with new image tag
            run: |
