@@ -93,7 +93,7 @@ jobs:
              git config --global user.name 'shubhanshu-learner'
              git config --global user.email 'shubhanshuj@icloud.com'
              git add kubernetes/productcatalog/deploy.yaml
-             git commit -m "Update product-catalog image tag to ${{github.run_id}}
+             git commit -m "Update product-catalog image tag to ${{github.run_id}}"
              git push origin main
 
 
