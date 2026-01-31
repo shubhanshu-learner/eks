@@ -1,6 +1,10 @@
 name: product-catalog-ci
 
 on:
+    push:
+        branches:
+        - main
+        - cicheck
     pull_request:
         branches:
         - main
